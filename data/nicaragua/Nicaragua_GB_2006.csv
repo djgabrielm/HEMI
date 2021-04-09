@@ -1,0 +1,299 @@
+Codigo,GastoBasico,Ponderacion
+1,Pan corriente,1.1974
+2,Pan de molde ,0.2192
+3,Pan tostado,0.0298
+4,Pan dulce,0.2444
+5,Repostería popular,0.1869
+6,Galletas dulces,0.1313
+7,Galleta salada,0.0524
+8,Arroz,2.649
+9,Avena,0.2452
+10,Harina de maíz,0.0523
+11,Harina de trigo,0.0327
+12,Maíz en grano,0.0215
+13,Pinolillo,0.1074
+14,Otros productos derivados del maíz,0.0399
+15,Tortillas de maíz,0.9475
+16,Hojuelas de maíz,0.1173
+17,Espaguetis,0.1356
+18,Carne sin hueso de res,1.7328
+19,Carne molida,0.5311
+20,Carne con hueso de res,0.1901
+21,Carne sin hueso de cerdo,0.26
+22,Carne con hueso de cerdo,0.0626
+23,Filete de pollo,0.0516
+24,Pollo por pieza,2.9022
+25,Víceras ,0.2631
+26,Chorizo criollo,0.0844
+27,Jamón,0.0724
+28,Mortadela,0.1698
+29,Salchichón de cerdo,0.0354
+30,Salchichas para hot-dog,0.0411
+31,Gallina viva,0.0413
+32,Chuleta de pescado,0.2145
+33,Pescado entero fresco,0.103
+34,Camarón,0.0691
+35,Atún enlatado,0.0858
+36,Sardinas enlatada,0.1045
+37,Leche líquida,1.2613
+38,Leche en polvo,0.713
+39,Leche en polvo maternizada,0.1212
+40,Crema de leche,0.4296
+41,Cuajada,0.4507
+42,Leche agria,0.0338
+43,Quesillo,0.0554
+44,Queso,1.5888
+45,Yogurt,0.0367
+46,Huevos de gallina,0.8415
+47,Aceite para cocinar,1.1885
+48,Mantequilla,0.1425
+49,Margarina,0.0704
+50,Banano,0.1698
+51,Manzana,0.0639
+52,Naranja,0.3684
+53,Limón,0.129
+54,Piña,0.0888
+55,Otras frutas frescas,0.3919
+56,Frijol ,0.8111
+57,Cebolla,0.4273
+58,Apio,0.0264
+59,Ayote,0.0398
+60,Chayote,0.0713
+61,Chiltoma,0.2304
+62,Plátano,0.6741
+63,Lechuga,0.0527
+64,Tomate,0.6002
+65,Pipian,0.0638
+66,Quequisque,0.0552
+67,Ajo,0.0461
+68,Remolacha,0.0309
+69,Repollo,0.0923
+70,Zanahoria,0.1129
+71,Papas,0.4371
+72,Yuca,0.0802
+73,Vegetales enlatados,0.0561
+74,Azúcar,1.1211
+75,Caramelos,0.0647
+76,Jalea,0.0313
+77,Helados,0.0859
+78,Hielo,0.0455
+79,Sorbete,0.0351
+80,Sal,0.0689
+81,Achiote,0.0335
+82,Consumes,0.0477
+83,Mayonesa,0.0461
+84,Mostaza,0.0408
+85,Salsa en base a tomate,0.3257
+86,Salsa inglesa,0.0732
+87,Vinagre,0.0257
+88,Sopa concentrada,0.2155
+89,Alimento para niños,0.0428
+90,Frituras,0.1074
+91,Café,0.5881
+92,Saborizante en polvo,0.0353
+93,Agua purificada,0.0889
+94,Gaseosa,1.5075
+95,Refresco,0.7689
+96,Ron,0.1704
+97,Cerveza,0.2785
+98,Cigarrillo,0.4316
+99,Telas para prendas de vestir,0.0787
+100,Camisa para hombre y niños mayores de 10 años,0.3314
+101,Camiseta para hombre y niños mayores de 10 años,0.2084
+102,Pantalón para hombre y niños mayor de 10 años,0.7103
+103,Calzoncillo para hombre y niños mayores de 10 años,0.1089
+104,Camisola para hombre y niños mayores de 10 años,0.0316
+105,Calcetines para hombre y niños mayores de 10 años,0.0875
+106,Vestidos y trajes para mujer y niñas mayores de 10 años,0.153
+107,Blusas para mujer y niñas mayores de 10 años,0.4101
+108,Camiseta para mujer y niñas mayores de 10 años,0.0484
+109,Faldas para mujer y niñas mayores de 10 años,0.1166
+110,Pantalón para mujer y niñas mayores de 10 años,0.4904
+111,Ropa interior para mujer y niñas mayores de 10 años,0.3243
+112,Traje completo para niño y niñas menores de 10 años,0.0822
+113,Traje completo para lactantes,0.1266
+114,Pantalón para niño menores de 10 años,0.1675
+115,Ropa interior para niños y niñas menores de 10 años,0.0584
+116,Calcetines y medias para niños y niñas menores de 10 años,0.0447
+117,Pañales de tela para lactantes,0.0905
+118,Fajas y cinturones,0.0594
+119,Confección de pantalón,0.067
+120,Calzado de vestir para hombre y niño mayores de 10 años,0.4175
+121,Calzado de vestir para mujer y niña mayores de 10 años,0.5674
+122,Botas para hombre y niño mayores de 10 años,0.0343
+123,Calzado deportivo para hombre y mujer,0.3891
+124,Chinelas de baño para adulto,0.0318
+125,Calzado de vestir para niño y niña menores de 10 años,0.167
+126,Calzado deportivo para niño y niña,0.0957
+127,Limpieza de calzado,0.027
+128,Alquiler efectivo de la vivienda,1.9256
+129,Cemento para reparación de la vivienda,0.1442
+130,Lámina de zinc,0.1146
+131,Pinturas ,0.1353
+132,Servicio de fontanería,0.0512
+133,Mano de obra por albañilería,0.0983
+134,Tarifa de consumo de  agua potable,1.6779
+135,Pago por recolección de basura,0.153
+136,Pago por vigilancia de la vivienda,0.2857
+137,Tarifa de consumo de energía eléctrica,3.0112
+138,Gas butano envasado,1.5953
+139,Kerosén ,0.0236
+140,Carbón vegetal,0.0482
+141,Leña,0.489
+142,Muebles de comedor,0.0652
+143,Muebles de sala,0.258
+144,Camas,0.3862
+145,Colchón,0.0506
+146,Otros muebles para el hogar,0.1892
+147,Espejo,0.0626
+148,Cubrecama,0.0885
+149,Juego de cama,0.137
+150,Toallas,0.0649
+151,Cocina de gas,0.1626
+152,Horno microondas,0.0303
+153,Refrigerador ,0.3368
+154,Lavadora,0.0679
+155,Abanico de pedestal,0.0494
+156,Licuadora,0.0389
+157,Plancha eléctrica,0.0353
+158,Artículos de plásticos para el hogar,0.07
+159,Ollas,0.0695
+160,Artículos de vajilla para el hogar,0.033
+161,Bujías,0.0345
+162,Pilas o baterías,0.056
+163,Jabón sólido para lavar ropa,0.771
+164,Detergente en polvo para lavar ropa,0.4575
+165,Suavizante para la ropa,0.1011
+166,Jabón de lavar vajilla,0.2826
+167,Cloro y desinfectante,0.393
+168,Desodorizante ambientales,0.0379
+169,Insecticida,0.045
+170,Betún en pasta,0.0544
+171,Bolsa para basura,0.0302
+172,Candelas,0.0886
+173,Fósforos,0.0796
+174,Servilletas o toallas de papel,0.0245
+175,Mechas y escobas,0.1159
+176,Pago de salario empleada doméstica,2.6116
+177,Analgésicos ,0.401
+178,Antialérgicos,0.0873
+179,Antiácidos,0.1452
+180,Antibióticos,0.2338
+181,Antidepresivos y ansiolíticos,0.1526
+182,Antidiabéticos,0.1388
+183,"Antidiarreicos, digestivos, laxantes enzimáticos",0.1149
+184,Antihipertensivos y diuréticos,0.258
+185,Antiinflamatorio,0.1686
+186,Antitusivos,0.1279
+187,Medicamentos para el corazón,0.1349
+188,Vitaminas,0.4283
+189,Algodón,0.0585
+190,Antiséptico de uso externo,0.0536
+191,Lentes ópticos,0.2461
+192,Consulta médica general,0.4066
+193,Consulta médica especializada,0.2956
+194,Consulta dental,0.2759
+195,Examen de orina,0.0984
+196,Examen de sangre,0.2658
+197,Radiografía,0.3092
+198,Ultrasonido,0.2326
+199,Servicio de hospitalización,0.5967
+200,Compra de motocicleta nueva,1.0771
+201,Bicicleta,0.6518
+202,Llantas para automóvil,0.1394
+203,Otro repuesto para automóvil,0.0662
+204,Aceite de motor,0.0551
+205,Diesel para automóvil,0.5543
+206,Gasolina para automóvil,2.0791
+207,Servicio de reparación de automóvil,0.3092
+208,Otros servicios para conservación del automóvil,0.078
+209,Inspección vehicular,0.062
+210,Matrícula de vehículo,0.0423
+211,Pasaje en bus urbano,1.3504
+212,Servicio de taxi urbano,1.3792
+213,Servicio de transporte escolar,0.2722
+214,Pasaje en bus interurbano,0.8142
+215,Aparato  telefónico,0.2995
+216,Servicio de internet,0.2324
+217,Servicio de telefónica residencial,1.4466
+218,Servicio de telefonía celular,1.9624
+219,Equipo de sonido,0.2575
+220,Televisor a color,0.469
+221,Equipo de DVD,0.1413
+222,Equipo de computador,0.1563
+223,DVD grabado,0.0683
+224,CD grabado,0.0647
+225,Juguete de cuerda,0.0957
+226,Muñeca,0.057
+227,Compra de flores,0.0459
+228,Alimentos para mascota,0.2315
+229,Mensualidad en gimnasio,0.2891
+230,Entrada a discotecas,0.31
+231,Mensualidad de televisión por cable,0.8933
+232,Entrada a cine,0.1051
+233,Foto carnet,0.2165
+234,Billete de lotería,0.5849
+235,Textos de educación regular,0.2843
+236,Textos de apoyo a la educación,0.0447
+237,Compra de diario,0.1744
+238,Cuaderno,0.2634
+239,Lapicero,0.0322
+240,Lápiz de grafito,0.0419
+241,Mensualidad preescolar,0.2919
+242,Matrícula preescolar,0.0358
+243,Mensualidad primaria,0.7877
+244,Matrícula primaria,0.1079
+245,Mensualidad secundaria,0.8272
+246,Matricula secundaria,0.106
+247,Mensualidad enseñanza técnica,0.103
+248,Mensualidad universitaria,1.7111
+249,Matrícula universitaria,0.1606
+250,Valor de la maestría,0.4342
+251,Curso de computación,0.1916
+252,Curso de idioma,0.4122
+253,Desayuno,0.5219
+254,Almuerzo,5.9203
+255,Platos preparados para servirse fuera del hogar,0.3324
+256,Hamburguesa para llevar,0.0584
+257,Platos preparados para llevar,1.7649
+258,Pollo asado para llevar,0.3637
+259,Pizza para llevar,0.1879
+260,Cerveza  servida fuera del hogar,0.0645
+261,Refresco servido fuera del hogar,0.0779
+262,Celebración de cumpleaños en restaurante,0.0784
+263,Mensualidad por alquiler para estudiante,0.1368
+264,Servicio de peluquería para hombre,0.2925
+265,Servicio de peluquería para mujer,0.3106
+266,Manicura,0.1091
+267,Máquina de afeitar,0.327
+268,Cepillo de dientes,0.1046
+269,Colonia,0.9994
+270,Crema de cuerpo,0.3239
+271,Crema de belleza,0.1359
+272,Polvo compacto,0.0776
+273,Lápiz labial,0.0618
+274,Pintura de uñas,0.0413
+275,Shampoo,0.6641
+276,Acondicionador,0.0947
+277,Fijador de pelo,0.111
+278,Otros productos para el cuidado del pelo,0.1008
+279,Desodorante,0.7853
+280,Jabón,0.3822
+281,Pasta de dientes,0.3878
+282,Talco,0.0491
+283,Papel higiénico,0.6706
+284,Toallas sanitarias,0.2281
+285,Pañales desechables,0.2175
+286,Juego de alianzas,0.0992
+287,Aretes de oro laminado,0.0757
+288,Reloj de pulsera,0.0763
+289,Bolso de viaje,0.035
+290,Mochila,0.1727
+291,Cartera para mujer,0.0756
+292,Cochecito para bebé,0.0422
+293,Seguro de vida,0.1495
+294,Seguro para automóvil,0.1134
+295,Seguro obligatorio para automóvil,0.0668
+296,Servicios para celebraciones en el hogar,0.3598
+297,Ceremonias religiosas,0.144
+298,Fotocopias,0.0963
