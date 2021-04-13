@@ -19,4 +19,7 @@ using JLD2
 
 @save datadir("nicaragua", "nicadata.jld2") nic06
 
-nicadata = CountryStructure((nic06,))
+nicadata = CountryStructure(nic06)
+
+totalfn = TotalCPI()
+tray_infl_nic = totalfn(nicadata)
