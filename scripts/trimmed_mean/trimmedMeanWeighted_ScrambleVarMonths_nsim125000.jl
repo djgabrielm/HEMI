@@ -18,8 +18,8 @@ savepath = datadir("Trimmed_Mean", "Weighted", "ScrambleVarMonths","nsim125000")
 
 
 sims = Vector{Dict{Symbol,Any}}()
-rango_inf = LinRange(0,40,41)
-rango_sup = LinRange(60,100,41)
+rango_inf = LinRange(12,22,21)
+rango_sup = LinRange(90,100,21)
 for i in rango_inf
     for j in rango_sup
         inflfn  = InflationTrimmedMeanWeighted(i,j)
