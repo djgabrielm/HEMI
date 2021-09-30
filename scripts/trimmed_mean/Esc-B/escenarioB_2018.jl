@@ -25,6 +25,7 @@ save_dirs = [joinpath("results","InflationTrimmedMeanEq","Esc-B"),
              joinpath("results","InflationTrimmedMeanWeighted","Esc-B")
 ]
 
+gtdata_eval = gtdata[Date(2018, 12)]
 
 ## SIMULACION DE GRILLA ---------------------------------------------------------------
 # Simulamos nuestras funciones en un grilla donde el eje X es un rango de valores
@@ -54,8 +55,8 @@ dir_list = [joinpath(save_dirs[1],"MTEq_SVM_RW_Rebase36_N1000_2018-12"),
 
 # corremos el script para optimizar, es decir encontrar el punto mínimo para cada
 # función, en donde el punto de arranque es el mínimo de la grilla. 
-grid_optim(dir_list[1],gtdata,10_000,7 ; save_dir = save_dirs[1])
-grid_optim(dir_list[2],gtdata,10_000,7 ; save_dir = save_dirs[2])
+grid_optim(dir_list[1],gtdata_eval,10_000,7 ; save_dir = save_dirs[1])
+grid_optim(dir_list[2],gtdata_eval,10_000,7 ; save_dir = save_dirs[2])
 
 ## GRAFICACION ------------------------------------------------------------------------------------
 # definimos los directorios donde se encuentran los resultados de la optimización.
