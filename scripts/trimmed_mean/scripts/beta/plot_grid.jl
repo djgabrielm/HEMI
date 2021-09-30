@@ -20,6 +20,8 @@ function plot_grid(dir_name::String, measure=:mse)
             sp          = split(last_dir,"_")
             plot_title  = join(sp,", ")
             df          = collect_results(savepath)
+            bitarray    = (!).(ismissing.(df[:,measure]) .|  isnan.(df[:,measure]))
+            df          = df[bitarray, :]
             if condition
                 COL = measure
                 txt = "máximo"
@@ -46,7 +48,7 @@ function plot_grid(dir_name::String, measure=:mse)
                 ymin=minimum(df.ℓ₂), ymax=maximum(df.ℓ₂)
                 ),
                 Gadfly.Guide.annotation(compose(context(),
-                text(minimum(df.ℓ₁), minimum(df.ℓ₂), "$txt en: \n ($xmin_params, $ymin_params) \n"*string(measure)*" = $min_measure"))
+                Compose.text(minimum(df.ℓ₁), minimum(df.ℓ₂), "$txt en: \n ($xmin_params, $ymin_params) \n"*string(measure)*" = $min_measure"))
                 ),
                 Gadfly.Guide.xlabel("ℓ₁"),
                 Gadfly.Guide.ylabel("ℓ₂"),

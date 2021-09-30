@@ -5,6 +5,8 @@ using JLD2
 
 function grid_optim(data_dir, data, N::Int64, radius, measure=:mse; save_dir="")
                 df          = collect_results(datadir(data_dir))
+                bitarray    = (!).(ismissing.(df[:,measure]) .|  isnan.(df[:,measure]))
+                df          = df[bitarray, :]
                 condition   =  measure==:corr   
                 sorted_df   = sort(df,measure, rev=condition)
                 min_params  = sorted_df[1,:params]

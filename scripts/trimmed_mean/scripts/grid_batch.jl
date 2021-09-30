@@ -61,5 +61,7 @@ function alias_savepath(x)
     end
 end
 
-
+function alias2(inflfn, resamplefn, trendfn, paramfn, N, traindate)
+    return join(alias_savepath.([inflfn, resamplefn, trendfn, paramfn, N, traindate]),"_")
+end 
 
