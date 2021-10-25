@@ -13,6 +13,7 @@ addprocs(4, exeflags="--project")
 # Cargar los paquetes utilizados en todos los procesos
 @everywhere using HEMI
 
+#= 
 inflfn1 = InflationPercentileEq.(0:0.001:1)
 inflfn2 = InflationPercentileWeighted.(0:0.001:1)
 resamplefn = ResampleScrambleVarMonths() 
@@ -22,8 +23,8 @@ gtdata_eval = gtdata[Date(2018, 12)]
 ff = Date(2018, 12)
 N = 1_000
 
-save_dirs = [datadir("results","PercEq","Esc-F","PercEq_SVM_RW_Rebase36_N1000_2018-12"),
-             datadir("results","PercW","Esc-F","PercW_SVM_RW_Rebase36_N1000_2018-12")
+save_dirs = [datadir("results","PercEq","Esc-G","PercEq_SVM_RW_Rebase36_N1000_2018-12"),
+             datadir("results","PercW","Esc-G","PercW_SVM_RW_Rebase36_N1000_2018-12")
 ]
 
 dict_percEq = Dict(
@@ -50,24 +51,25 @@ dict_percW = Dict(
 df1 = collect_results(save_dirs[1])
 df2 = collect_results(save_dirs[2])
 
+=#
+
 include(scriptsdir("percentile","perc-optimization.jl"))
 
 variants_dict = dict_list(Dict(
     :infltypefn => [InflationPercentileEq, InflationPercentileWeighted],
-    :resamplefn => resamplefn,
-    :trendfn => trendfn,
+    :resamplefn => ResampleScrambleVarMonths() ,
+    :trendfn => TrendRandomWalk(),
     :paramfn => InflationTotalRebaseCPI(60),
     :nsim => 10_000,
     :traindate => Date(2018, 12))
 )
 
-
-savepath = datadir("results", "Percentile", "Esc-F", "Optim")
+savepath = datadir("results", "Percentile", "Esc-G", "Optim")
 
 using Optim
 
 for config in variants_dict
-    optimizeperc(config, gtdata; savepath, maxiterations = 50, kbounds = [0.00001, 0.99999], measure = :corr)
+    optimizeperc(config, gtdata; savepath, maxiterations = 50, kbounds = [0.00001, 0.99999], measure = :absme)
 end
 
 
